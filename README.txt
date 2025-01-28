@@ -71,16 +71,16 @@ python3 client.py 192.168.1.101 8080
 // Now they will exchange certificates, connect to each other and you can 
 //start your hidden communication.
 
-______________________________________________________________________________
+________________________________________________________________________________
                                      TO-DO
-______________________________________________________________________________
+________________________________________________________________________________
 1. In the plan: add to the next version of Lock-Talk an indication of the port 
    for exchanging certificates. Add changes to documentation. [X] 
    | Looking forward to this in future versions |
 
-______________________________________________________________________________
+________________________________________________________________________________
                                   LEGAL STATEMENT
-______________________________________________________________________________
+________________________________________________________________________________
 By downloading, modifying, redistributing, and/or executing Lock-Talk, the
 user agrees to the contained LEGAL.txt statement found in this repository.
 
