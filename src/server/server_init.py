@@ -28,6 +28,7 @@ def color_messages(mode: int):
         print(colorama.Fore.BLUE) 
 
 def main():
+    colorama.init(autoreset = True)
     port = int(sys.argv[1])
     DEBUG = int(sys.argv[2])
     mode = int(sys.argv[3])

@@ -7,6 +7,8 @@ import colorama # Library for color text output
 from client_init import debug_messages # Function for coloring debug messages | customization
 from client_init import color_messages # Function to color subsequent messages forever | customization
 
+colorama.init(autoreset = True)
+
 DEBUG = 1 # The presence of comments inthe output and more detailed work, set at your discretion to control the operation of the program
 
 print('Available customizations:\n 1 - default (white/black)\n 2 - green\n 3 - red\n 4 - blue')
