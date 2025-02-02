@@ -4,6 +4,8 @@ import sys
 import os
 import colorama # Library for color text output
 
+colorama.init(autoreset = True) # for color output in Windows OS
+
 from client_init import debug_messages # Function for coloring debug messages | customization
 from client_init import color_messages # Function to color subsequent messages forever | customization
 

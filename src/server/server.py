@@ -4,6 +4,8 @@ import os
 import sys
 import colorama # Library for color text output
 
+colorama.init(autoreset = True) # for color output in Windows OS
+
 from server_init import debug_messages # Function for coloring debug messages | customization
 from server_init import color_messages # Function to color subsequent messages forever | customization
 
@@ -95,7 +97,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM, 0) as s: # Socket connect
                 print(f'\n---\nMessage from: {addr}\nMessage: {message}\n---\n')
                 message = input('>> ')
                 conn.send(message.encode())
-                
+
             except KeyboardInterrupt:
                 if mode != 3:
                     print(colorama.Fore.RED, '\nExiting...')

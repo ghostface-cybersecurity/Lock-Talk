@@ -5,6 +5,8 @@ import sys
 import os
 import colorama
 
+colorama.init(autoreset = True) # for color output in Windows OS
+
 def debug_messages(mode: int,text: str):
     if mode == 1:
         print(text)
