@@ -76,6 +76,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________
 1. In the plan: add to the next version of Lock-Talk an indication of the port 
    for exchanging certificates. Add changes to documentation. [X] 
+2. Clear code and documentation. [X]
    | Looking forward to this in future versions |
 
 ________________________________________________________________________________
